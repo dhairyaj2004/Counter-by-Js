@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+    <h1>CURRENT COUNT</h1>
+    <h2 id="counter">0</h2>
+    <div class="container">
+    <button id="inc-btn" onclick="inc()">INCREMENT</button>
+    <button id="dec-btn" onclick="dec()">DECREMENT</button><br>
+    <button id="save-btn" onclick="save();counter.innerText=0;count=0">SAVE</button><br>
+    <button id="ref-btn" onclick="ref()">REFRESH</button>
+    <p id="saved">Previous entries: </p></div></div>
+<script src="index.js"></script>
+</body>
+
+</html>
